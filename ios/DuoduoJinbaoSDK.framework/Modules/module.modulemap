@@ -1,0 +1,6 @@
+framework module DuoduoJinbaoSDK {
+  umbrella header "DuoduoJinbaoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,13 +13,11 @@ cd ios
 pod install
 ```
 
+> 由于本模块不含安全图片`（已删除DuoduoJinbaoSDK.framework/Resources/DuoduoJinbaoSDK.bundle）`，需要下载官方 SDK 后，将 `DuoduoJinbaoSDK.framework/Resources/DuoduoJinbaoSDK.bundle` 资源文件包添加到工程中，  bundle 内部有一张安全图片，如果你的项目有压缩资源图片的操作，注意不要对这张图片进行压缩。（Xcode添加framework并不会自动添加framework下的bundle，需要手动添加）
+
 ### Android
 
-在 `android/app/proguard-rules.pro` 文件中，主工程一定要keep住这个类，添加以下内容：
-
-```js
--keep class com.xunmeng.pinduoduo.secure.EU {*;}
-```
+> 由于本模块不含安全图片，需要下载官方 SDK 后将 duoduojinbao.jpg `放入assets` 目录下
 
 ## 使用
 

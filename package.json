@@ -1,6 +1,6 @@
 {
   "name": "react-native-duoduojinbao",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-native library for duoduojinbao",
   "main": "index.js",
   "scripts": {

@@ -20,7 +20,7 @@ interface PageConfig {
     backURL?: string;
 }
 
-export default class PddISV {
+export default class DuoduoJinbao {
     /**
      * 初始化
      */

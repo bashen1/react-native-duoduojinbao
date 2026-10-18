@@ -15,10 +15,9 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc  = true
 
-  s.vendored_frameworks = 'ios/*.framework'
+  s.vendored_frameworks = 'ios/sdk/*.xcframework'
   s.libraries = 'sqlite3', 'resolv'
   s.frameworks = 'AdSupport'
 
   s.dependency "React-Core"
-
 end
